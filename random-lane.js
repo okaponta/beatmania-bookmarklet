@@ -1,6 +1,6 @@
 javascript:(function() {
   var targetClass = 'inner';
-  var elements = document.querySelectorAll('.' + targetClass + 'li:first-child');
+  var elements = document.querySelectorAll('.' + targetClass + ' li:first-child');
 
   for (var i = 0; i < elements.length; i++) {
     var text = elements[i].textContent.trim();
